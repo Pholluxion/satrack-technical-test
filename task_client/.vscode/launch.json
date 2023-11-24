@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch App",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--dart-define",
+                "URL=https://legendary-barnacle-production.up.railway.app",
+                "--dart-define",
+                "API_VERSION=api/v1",
+            ]
+        }
+    ]
+}

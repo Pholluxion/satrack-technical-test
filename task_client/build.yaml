@@ -1,0 +1,11 @@
+targets:
+  $default:
+    builders:
+      chopper_generator:
+        generate_for:
+          include:
+            - lib/src/data/services/**.dart
+      go_router_builder:
+        generate_for:
+          include:
+            - lib/src/presentation/app/router/**.dart
